@@ -1,0 +1,141 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url(123.jpg);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40));
+            background-position: center;
+            background-size: center;
+        }
+        .navbar {
+            width: 90%;
+            padding: 30px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            width: 160px;
+            margin-top: -10px;
+            cursor: pointer;
+        }
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li {
+            list-style: none;
+            margin: 20px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            padding: 15px;
+            transition: 0.6s;
+            background-color: rgb(0, 192, 226);
+            border-radius: 5px;
+        }
+        .navbar ul li a:hover {
+            background-color: rgb(0, 102, 153);
+            color: white;
+        }
+
+        /* Consistent color design for all navigation links */
+        .navbar ul li a {
+            background-color: rgb(0, 192, 226);
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        .navbar ul li a:hover {
+            background-color: rgb(0, 102, 153);
+            color: white;
+        }
+
+        .content {
+            width: 100%;
+            position: absolute;
+            color: white;
+            top: 45%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+        .content h1 {
+            margin-top: 80px;
+            font-size: 90px;
+            font-weight: 800;
+        }
+
+        /* Log out button styling (same as navigation links) */
+        .navbar a button {
+            background-color: rgb(0, 192, 226);
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 20px;
+            cursor: pointer;
+            color: black;
+            font-weight: 600;
+            text-decoration: none;
+            border: none;
+            margin-left: 20px;
+        }
+
+        .navbar a button:hover {
+            background-color: rgb(0, 102, 153);
+            color: white;
+        }
+
+        .banner video {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        @media (min-aspect-ratio: 16/9) {
+            .banner video {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="file:///G:/jhstine/jhstinefinalllyyyyy1.html">WEB DEV</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="file:///G:/cod/EVENTSACTIVITYY.html">EVENTS</a></li>
+                <li><a href="file:///G:/cod/RNHSTRANDFINAL.html">STRAND</a></li>
+                <li><a href="file:///G:/cod/FACILITIESFINALLLL.html">FACILITIES</a></li>
+                <li><a href="file:///G:/CODING/ABOUTDONE.html">ABOUT US</a></li>
+                <li><a href="file:///G:/cod/FINALMAPRNHS.html">MAP</a></li>
+                <li><a href="file:///G:/cod/STUDENTGUIDEDONE1.html">STUDENT GUIDE</a></li>
+            </ul>
+       		<a href="file:///G:/CODING/LOGINFORMACT.html">
+                <button type="button">LOG OUT</button>
+            </a>
+        </div>
+        <div class="content">
+            <h1>WELCOME TO RNHS</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<DOCTYPE!>
+<html lang="en">
+<head>
+<style>
+
+h1 {text-align: center;}
+p {text-align: left;}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>EVENTS</h1>
+<b><p>Tech-Voc</p></b>
+
+<p>Exciting Upcoming Event: Cheer Dance, Bazaar & Graduation Celebration!
+
+Get ready for an action-packed day! Enjoy an electrifying cheer dance performance, shop unique finds at our vibrant bazaar, and celebrate the accomplishments of our graduates during the graduation ceremony. It's a day of energy, fun, and pride that you won't want to miss!</p>
+    
+
+
+</body></html>
